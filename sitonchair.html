@@ -1,11 +1,166 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
+
 <head>
   <meta charset="UTF-8">
-  <title>Sit on chair</title>
+  <title>SIT ON CHAIR</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
 
+<body>
+  <!--LOGO ORAZ MENU -->
+  <header>
+    <div class="container">
+      <p>SIT <span class="color">ON</span> CHAIR</p>
+      <ul>
+        <li>O FIRMIE</li>
+        <li>GALERIA</li>
+        <li>KONTAKT</li>
+      </ul>
+    </div>
+  </header>
+  <!--SEKCJA PIERWSZA, FOTEL, OPIS, PRZELACZANIE -->
+  <section class="first">
+    <div class="container">
+      <div class="nextButton">
+        <span><</span>
+      </div>
+
+      <div class="divOne">
+        <img src="images/black_chair.png">
+      </div>
+
+      <div class="divTwo">
+        <h1>SIT <span class="color">ON</span> OUR <span class="color">CHAIR</span></h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <input type="button" value="ZOBACZ WIĘCEJ">
+      </div>
+
+      <div class="nextButton">
+        <span>></span>
+      </div>
+  </section>
+  <!--SEKCJA DRUGA DWA ZDJECIA ORAZ OPIS -->
+  <section id="col3">
+    <div class="container">
+      <div class="col-3 clair">
+        <div class="opis">
+          <p class="bBottom">Chair CLAIR</p>
+        </div>
+      </div>
+      <div class="col-3 margarita">
+        <div class="opis">
+          <p class="bBottom">Chair MARGARITA</p>
+        </div>
+      </div>
+      <div class="col-3 noPhoto">
+        <p class="bBottom">Finds all inputs</p>
+        <p class="text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi ut aliquip ex ea commodo consequat.<br><br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!--SEKCJA TRZECIA CENNIK -->
+  <section id="buy">
+    <div class="container">
+      <p class="tariff">CENNIK</p>
+
+      <div class="choice basic">
+        <div class="circle">
+          <div class="greyCircle"></div>
+        </div>
+        <span class="color inside">BASIC PLAN</span>
+        <p>85<sup>99</sup> <span class="mini">PLN/MSC</span></p>
+        <ul>
+          <li>Zakup towaru + dowóz</li>
+          <li>Serwis</li>
+        </ul>
+        <input type="button" value="DOŁĄCZ">
+      </div>
+
+      <div class="choice standard">
+        <div class="circle">
+          <div class="greyCircle"></div>
+        </div>
+        <span class="color inside">STANDARD PLAN</span>
+        <p>95<sup>99</sup> <span class="mini">PLN/MSC</span></p>
+        <ul>
+          <li>Zakup towaru + dowóz</li>
+          <li>Serwis</li>
+          <li>Gwarancja 5 lat</li>
+        </ul>
+        <input type="button" value="DOŁĄCZ">
+      </div>
+
+      <div class="choice advance">
+        <div class="circle">
+          <div class="greyCircle"></div>
+        </div>
+        <span class="color inside">ADVANCE PLAN</span>
+        <p>211<sup>00</sup> <span class="mini">PLN/MSC</span></p>
+        <ul>
+          <li>Zakup towaru + dowóz</li>
+          <li>Serwis</li>
+          <li>Gwarancja 6 lat</li>
+          <li>Porady projektanta</li>
+        </ul>
+        <input type="button" value="DOŁĄCZ">
+      </div>
+
+  </section>
+  <!--SEKCJA CZWARTA KONTAKT  -->
+
+  <section id="form">
+    <div class="container">
+      <p class="tariff">KONTAKT</p>
+
+      <div class="divFirst">
+        <form>
+
+          <input type="text" name="name" placeholder="Imię">
+          <input type="email" name="email" placeholder="email">
+          <textarea name="message" placeholder="Wiadomość"></textarea>
+
+      </div>
+
+      <div class="divSecond">
+
+        <img id="redChair" src="images/red_chair.png">
+        <div class="checkbox">
+          <div class="checkOk">
+            <input type="checkbox" class="check_box" value="1" id="CB1" />
+            <label for='CB1'>&nbsp;</label>
+          </div>
+          <div class="checkOk">
+            <p>Zgadzam się na przetwarzanie <br>danych osobowych</p>
+          </div>
+        </div>
+
+        <input class="btn" type="button" value="WYŚLIJ">
+
+      </div>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footerLeft">
+        <p id="copyRight">Copyright 2014 | All Rights Reserved. - Sit On Chair</p>
+      </div>
+      <p class="logo">SIT <span id="colorC">ON</span> CHAIR</p>
+      <div class="logo">
+        <img src="images/flickr.png">
+        <img src="images/vimeo.png">
+        <img src="images/pinterest.png">
+        <img src="images/twitter.png">
+      </div>
+
+    </div>
+  </footer>
 </body>
+
 </html>
