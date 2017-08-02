@@ -1,418 +1,445 @@
 * {
-  margin: 0;
-  padding: 0;
-  font-family: 'Open Sans', sans-serif;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
 }
 
 .container {
-  width: 1000px;
-  margin: 0 auto;
+    width: 1000px;
+    margin: 0 auto;
 }
 
 .container::after {
-  display: block;
-  clear: both;
-  content: " ";
+    display: block;
+    clear: both;
+    content: " ";
 }
 
 header, section, footer {
-  width: 100%;
+    width: 100%;
 }
 
 .color {
-  color: MediumAquamarine;
+    color: MediumAquamarine;
 }
 
 header {
-  font-weight: bold;
-  font-size: 12px;
-  color: white;
-  background-color: black;
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+    background-color: black;
 }
 
 header p {
-  display: inline-block;
-  padding-left: 20px;
-  padding-top: 10px;
+    display: inline-block;
+    padding-left: 20px;
+    padding-top: 10px;
 }
 
 header ul {
-  display: inline-block;
-  float: right;
+    display: inline-block;
+    float: right;
+    position: relative;
 }
 
 header li {
-  display: inline-block;
-  padding-left: 25px;
-  padding-right: 5px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header ol {
+    display: block;
+    width: 100px;
+    list-style: none;
+    position: absolute;
+    background-color: black;
+    display: none;
+}
+
+.visibility {
+    display: block;
+}
+
+.invisibility {
+    display: none;
+}
+
+header ol>li {
+    list-style: none;
+    margin-left: -20px;
 }
 
 .first {
-  background-image: linear-gradient(to bottom, #f6f8f9 60%, #E5EBEE 90%, #D7DEE3 100%, #f5f7f9 100%);
+    background-image: linear-gradient(to bottom, #f6f8f9 60%, #E5EBEE 90%, #D7DEE3 100%, #f5f7f9 100%);
 }
 
 .nextButton {
-  top: 100px;
-  width: 40px;
-  color: MediumAquamarine;
-  font-size: 60px;
-  float: left;
-  padding-top: 140px;
+    top: 100px;
+    width: 40px;
+    color: MediumAquamarine;
+    font-size: 60px;
+    float: left;
+    padding-top: 140px;
+}
+
+#prevPicture, #nextPicture {
+    cursor: pointer;
 }
 
 .divOne {
-  width: 460px;
-  float: left;
-  padding-top: 40px;
-  padding-left: 40px;
+    width: 460px;
+    float: left;
+    padding-top: 40px;
+    padding-left: 40px;
 }
 
 .divTwo {
-  float: left;
-  text-align: center;
-  width: 450px;
-  padding-top: 30px;
-  padding-right: 40px;
+    float: left;
+    text-align: center;
+    width: 450px;
+    padding-top: 30px;
+    padding-right: 40px;
 }
 
 h1 {
-  font-size: 43px;
-  padding-top: 33px;
-  padding-bottom: 20px;
-  font-weight: 700;
+    font-size: 43px;
+    padding-top: 33px;
+    padding-bottom: 20px;
+    font-weight: 700;
 }
 
 .divTwo p {
-  line-height: 25px;
-  font-size: 15px;
-  font-weight: 400;
+    line-height: 25px;
+    font-size: 15px;
+    font-weight: 400;
 }
 
 .first input {
-  padding: 10px 30px 10px 30px;
-  font-size: 15px;
-  margin-top: 20px;
-  color: white;
-  background-color: MediumAquamarine;
-  border-radius: 10px;
+    padding: 10px 30px 10px 30px;
+    font-size: 15px;
+    margin-top: 20px;
+    color: white;
+    background-color: MediumAquamarine;
+    border-radius: 10px;
 }
 
 #col3 {
-  padding-bottom: 80px;
+    padding-bottom: 80px;
 }
 
 .col-3 {
-  width: 320px;
-  float: left;
-  margin-top: 20px;
+    width: 320px;
+    float: left;
+    margin-top: 20px;
 }
 
 .bBottom {
-  font-size: 15px;
-  font-weight: bold;
-  border-bottom: 6px solid MediumAquamarine;
-  width: 140px;
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: 6px solid MediumAquamarine;
+    width: 140px;
 }
 
 .opis {
-  background-color: rgba(255, 255, 255, 0.5);
-  padding-top: 12px;
-  padding-bottom: 25px;
-  padding-left: 10px;
-  margin-top: 150px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-top: 12px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    margin-top: 150px;
 }
 
 .clair {
-  background-image: url("../images/box1_img.jpg");
-  height: 225px;
-  margin-right: 20px;
+    background-image: url("../images/box1_img.jpg");
+    height: 225px;
+    margin-right: 20px;
 }
 
 .margarita {
-  background-image: url("../images/box2_img.jpg");
-  height: 225px;
+    background-image: url("../images/box2_img.jpg");
+    height: 225px;
 }
 
 .noPhoto {
-  margin-left: 20px;
-  border: 1px solid lightgrey;
-  padding: 20px;
+    margin-left: 20px;
+    border: 1px solid lightgrey;
+    padding: 20px;
 }
 
 .text {
-  line-height: 18px;
-  font-size: 14px;
-  color: grey;
-  padding-top: 16px;
+    line-height: 18px;
+    font-size: 14px;
+    color: grey;
+    padding-top: 16px;
 }
 
 #buy {
-  background-color: #DCDCDC;
+    background-color: #DCDCDC;
 }
 
 .tariff {
-  border-bottom: 6px solid MediumAquamarine;
-  width: 300px;
-  font-size: 18px;
-  padding-bottom: 5px;
-  padding-top: 30px;
+    border-bottom: 6px solid MediumAquamarine;
+    width: 300px;
+    font-size: 18px;
+    padding-bottom: 5px;
+    padding-top: 30px;
 }
 
 .choice {
-  position: relative;
-  float: left;
-  width: 320px;
-  height: 490px;
-  border: 1px solid silver;
-  margin-top: 60px;
-  margin-bottom: 50px;
-  background-color: whitesmoke;
-  text-align: center;
+    position: relative;
+    float: left;
+    width: 320px;
+    height: 490px;
+    border: 1px solid silver;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    background-color: whitesmoke;
+    text-align: center;
 }
 
 .advance, .standard {
-  margin-left: 20px;
+    margin-left: 20px;
 }
 
 .circle {
-  position: absolute;
-  top: -40px;
-  left: 130px;
-  margin: 0 auto;
-  height: 60px;
-  width: 60px;
-  border: 1px solid silver;
-  border-radius: 100%;
-  background-color: whitesmoke;
+    position: absolute;
+    top: -40px;
+    left: 130px;
+    margin: 0 auto;
+    height: 60px;
+    width: 60px;
+    border: 1px solid silver;
+    border-radius: 100%;
+    background-color: whitesmoke;
 }
 
 .greyCircle {
-  height: 30px;
-  width: 30px;
-  margin: 14px;
-  border-radius: 100%;
-  background-color: silver;
+    height: 30px;
+    width: 30px;
+    margin: 14px;
+    border-radius: 100%;
+    background-color: silver;
 }
 
 .mini {
-  display: block;
-  font-size: 12px;
-  padding: 5px;
+    display: block;
+    font-size: 12px;
+    padding: 5px;
 }
 
 .inside {
-  display: block;
-  font-size: 20px;
-  padding-top: 30px;
-  padding-bottom: 20px;
+    display: block;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 .choice p {
-  font-size: 34px;
-  color: silver;
-  font-weight: bold;
-  border: 1px solid silver;
-  width: 110px;
-  height: 110px;
-  border-radius: 100%;
-  padding-top: 18px;
-  margin: 0 auto;
+    font-size: 34px;
+    color: silver;
+    font-weight: bold;
+    border: 1px solid silver;
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+    padding-top: 18px;
+    margin: 0 auto;
 }
 
 .choice ul {
-  margin-top: 30px;
-  font-size: 20px
+    margin-top: 30px;
+    font-size: 20px
 }
 
 .choice li {
-  padding: 8px;
+    padding: 8px;
 }
 
 .choice li:nth-child(2n+1) {
-  background-color: lightgrey;
-  color: #696969;
+    background-color: lightgrey;
+    color: #696969;
 }
 
 .choice li:nth-child(2n) {
-  background-color: #E3E3E3;
-  color: grey;
+    background-color: #E3E3E3;
+    color: grey;
 }
 
 .choice input {
-  font-size: 14px;
-  color: whitesmoke;
-  padding: 8px 25px;
-  background-color: MediumAquamarine;
-  border-radius: 8px;
+    font-size: 14px;
+    color: whitesmoke;
+    padding: 8px 25px;
+    background-color: MediumAquamarine;
+    border-radius: 8px;
 }
 
 .basic input {
-  margin-top: 130px;
+    margin-top: 130px;
 }
 
 .standard input {
-  margin-top: 88px;
+    margin-top: 88px;
 }
 
 .advance input {
-  margin-top: 48px;
+    margin-top: 48px;
 }
 
 .choice:active {
-  background-color: MediumAquamarine;
+    background-color: MediumAquamarine;
 }
 
 .choice:active .color {
-  color: white;
+    color: white;
 }
 
 .choice:active p {
-  background-color: white;
-  border: none;
-  color: MediumAquamarine;
+    background-color: white;
+    border: none;
+    color: MediumAquamarine;
 }
 
 .choice:active ul {
-  border: 1px solid MediumAquamarine;
+    border: 1px solid MediumAquamarine;
 }
 
 .choice:active li:nth-child(2n+1) {
-  background-color: whitesmoke;
-  color: grey;
+    background-color: whitesmoke;
+    color: grey;
 }
 
 .choice:active li:nth-child(2n) {
-  background-color: #DCDCDC;
-  color: grey;
+    background-color: #DCDCDC;
+    color: grey;
 }
 
 .choice:active input {
-  background-color: whitesmoke;
-  color: MediumAquamarine;
+    background-color: whitesmoke;
+    color: MediumAquamarine;
 }
 
 .choice:active .circle {
-  border: 1px solid MediumAquamarine;
-  background-color: MediumAquamarine;
+    border: 1px solid MediumAquamarine;
+    background-color: MediumAquamarine;
 }
 
 .choice:active .circleGrey {
-  background-color: whitesmoke;
+    background-color: whitesmoke;
 }
 
 .divFirst input {
-  display: block;
+    display: block;
 }
 
 .divFirst {
-  float: left;
-  width: 65%;
-  margin-top: 20px;
+    float: left;
+    width: 65%;
+    margin-top: 20px;
 }
 
 .divSecond {
-  float: left;
-  width: 35%;
-  margin-top: 20px;
-  color: #E3E3E3;
+    float: left;
+    width: 35%;
+    margin-top: 20px;
+    color: #E3E3E3;
 }
 
 #redChair {
-  display: block;
-  margin-left: 30px;
+    display: block;
+    margin-left: 30px;
 }
 
 .divFirst input {
-  width: 600px;
-  height: 67px;
-  margin-bottom: 10px;
-  font-size: 30px;
-  letter-spacing: 1px;
-  color: #E3E3E3;
-  border: 1px solid MediumAquamarine;
+    width: 600px;
+    height: 67px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #E3E3E3;
+    border: 1px solid MediumAquamarine;
 }
 
 .divFirst textarea {
-  width: 600px;
-  height: 221px;
-  margin-bottom: 10px;
-  resize: none;
-  background-color: white;
-  font-size: 30px;
-  letter-spacing: 1px;
-  color: #E3E3E3;
-  border: 1px solid MediumAquamarine;
+    width: 600px;
+    height: 221px;
+    margin-bottom: 10px;
+    resize: none;
+    background-color: white;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #E3E3E3;
+    border: 1px solid MediumAquamarine;
 }
 
 .divSecond .btn {
-  padding: 10px 90px 10px 90px;
-  font-size: 20px;
-  font-weight: bold;
-  margin-top: 20px;
-  color: white;
-  background-color: MediumAquamarine;
-  border-radius: 10px;
-  margin-top: 45px;
-  margin-left: 50px;
+    padding: 10px 90px 10px 90px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: white;
+    background-color: MediumAquamarine;
+    border-radius: 10px;
+    margin-top: 45px;
+    margin-left: 50px;
 }
 
 .check_box {
-  display: none;
+    display: none;
 }
 
 .check_box+label {
-  background: url('../images/form_ok1.jpg') no-repeat;
-  height: 40px;
-  width: 48px;
-  display: inline-block;
-  padding: 0 0 0 0px;
+    background: url('../images/form_ok1.jpg') no-repeat;
+    height: 40px;
+    width: 48px;
+    display: inline-block;
+    padding: 0 0 0 0px;
 }
 
 .check_box:checked+label {
-  background: url('../images/form_ok.jpg') no-repeat;
-  height: 40px;
-  width: 48px;
-  display: inline-block;
-  padding: 0 0 0 0px;
+    background: url('../images/form_ok.jpg') no-repeat;
+    height: 40px;
+    width: 48px;
+    display: inline-block;
+    padding: 0 0 0 0px;
 }
 
 .checkOk {
-  display: inline;
-  float: left;
-  padding-top: 30px;
-  padding-left: 20px;
+    display: inline;
+    float: left;
+    padding-top: 30px;
+    padding-left: 20px;
 }
 
 .logo {
-  display: block;
-  float: right;
-  font-size: 14px;
-  color: #D3D3D3;
-  padding-top: 60px;
-  padding-bottom: 40px;
+    display: block;
+    float: right;
+    font-size: 14px;
+    color: #D3D3D3;
+    padding-top: 60px;
+    padding-bottom: 40px;
 }
 
 #colorC {
-  color: #808080;
+    color: #808080;
 }
 
 .logo img {
-  width: 17%;
-  height: 17%;
+    width: 17%;
+    height: 17%;
 }
 
 .footerLeft {
-  display: block;
-  float: left;
-  padding-top: 60px;
-  padding-bottom: 40px;
-  letter-spacing: 1px;
+    display: block;
+    float: left;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    letter-spacing: 1px;
 }
 
 #copyRight {
-  font-size: 12px;
-  color: #808080;
+    font-size: 12px;
+    color: #808080;
 }
